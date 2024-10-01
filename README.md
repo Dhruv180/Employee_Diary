@@ -20,23 +20,22 @@ This Flutter project demonstrates basic CRUD (Create, Read, Update, Delete) oper
 # Outputs
 <!-- First row -->
 <p align="center">
-  <img src="https://github.com/Dhruv180/Employee-Diary/assets/91781551/d0867fe8-1335-42b5-a162-632c555f3cb8" width="400" alt="Screenshot 1">
+  <img src="https://github.com/Dhruv180/Employee_Diary/assets/91781551/4aced64b-63be-416f-b13a-e799bac3c9ed" width="400" alt="Screenshot 1">
   &nbsp; <!-- non-breaking space for small gap -->
-  <img src="https://github.com/Dhruv180/Employee-Diary/assets/91781551/f7d3f7f5-58cd-4455-bef7-af08ecb714ee" width="400" alt="Screenshot 2">
+  <img src="https://github.com/Dhruv180/Employee_Diary/assets/91781551/24b95405-ac4c-436b-8e8f-705f2f06bfb7" width="400" alt="Screenshot 3">
+  
 </p>
 
 <!-- Second row -->
 <p align="center">
-  <img src="https://github.com/Dhruv180/Employee-Diary/assets/91781551/1b1b405b-1968-44c3-acfa-02f37444a47b" width="400" alt="Screenshot 3">
+<img src="https://github.com/Dhruv180/Employee_Diary/assets/91781551/c5a15b8d-03cd-48cb-a9be-739aae50cbd0" width="400" alt="Screenshot 2">
   &nbsp; 
-  <img src="https://github.com/Dhruv180/Employee-Diary/assets/91781551/e9728721-e58c-4930-93ea-15be6b527c08" width="400" alt="Screenshot 4">
+  <img src="https://github.com/Dhruv180/Employee_Diary/assets/91781551/a680085e-6d60-459b-8864-5f113e235217" width="400" alt="Screenshot 4">
 </p>
 
 <!-- Third row -->
 <p align="center">
-  <img src="https://github.com/Dhruv180/Employee-Diary/assets/91781551/a74060e0-2205-410d-9017-14870b62287e" width="400" alt="Screenshot 5">
+   <img src="https://github.com/Dhruv180/Employee_Diary/assets/91781551/cacf9003-7fe6-47dc-b78e-9e9ddc26f4b9" width="400" alt="Screenshot 6">
   &nbsp;
-  <img src="https://github.com/Dhruv180/Employee-Diary/assets/91781551/6028d619-e8ea-48be-82f5-d8b7802eb265" width="400" alt="Screenshot 6">
+  <img src="https://github.com/Dhruv180/Employee_Diary/assets/91781551/75e08727-c40e-4c9c-9690-1199e809d689" width="400" alt="Screenshot 5">
 </p>
-
-
