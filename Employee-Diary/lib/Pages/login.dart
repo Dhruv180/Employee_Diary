@@ -4,7 +4,7 @@ import 'package:crud_project/Widget/button.dart';
 import 'package:crud_project/Services/authentication.dart';
 import 'package:crud_project/Widget/snackbar.dart';
 import 'package:crud_project/Widget/text_field.dart';
-
+import 'package:crud_project/Api/local_auth_api.dart'; // Import LocalAuthApi
 import 'signup.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -38,23 +38,22 @@ class _LoginScreenState extends State<LoginScreen> {
     );
 
     if (res == "success") {
-      try {
-        String userId = AuthMethod().getCurrentUserID(); // Retrieve user ID
+      String userId = AuthMethod().getCurrentUserID(); // Retrieve user ID
 
-        setState(() {
-          isLoading = false;
-        });
-
+      // Trigger biometric authentication after login
+      final isAuthenticated = await LocalAuthApi.authenticate();
+      if (isAuthenticated) {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(
             builder: (context) => Home(userId: userId),
           ),
         );
-      } catch (e) {
+      } else {
+        // Handle authentication failure
         setState(() {
           isLoading = false;
         });
-        showSnackBar(context, "Error: ${e.toString()}");
+        showSnackBar(context, "Biometric authentication failed.");
       }
     } else {
       setState(() {
@@ -105,7 +104,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     )
                   ],
                 ),
-                
                 Padding(
                   padding: const EdgeInsets.only(top: 10, left: 100),
                   child: Row(

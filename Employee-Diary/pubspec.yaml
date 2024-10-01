@@ -43,6 +43,7 @@ dependencies:
   flutter_native_splash: ^2.4.0
   google_sign_in: ^6.2.1
   firebase_auth: ^5.1.1
+  local_auth: ^2.3.0
   
 
 dev_dependencies:
