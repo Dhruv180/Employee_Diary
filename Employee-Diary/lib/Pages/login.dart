@@ -1,10 +1,11 @@
-import 'package:flutter/material.dart';
+import 'package:crud_project/Api/local_auth_api.dart'; // Import LocalAuthApi
 import 'package:crud_project/Pages/home.dart';
 import 'package:crud_project/Widget/button.dart';
-import 'package:crud_project/Services/authentication.dart';
 import 'package:crud_project/Widget/snackbar.dart';
 import 'package:crud_project/Widget/text_field.dart';
-import 'package:crud_project/Api/local_auth_api.dart'; // Import LocalAuthApi
+import 'package:crud_project/services/authentication.dart';
+import 'package:flutter/material.dart';
+
 import 'signup.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -77,7 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 SizedBox(
                   height: height / 2.7,
-                  child: Image.asset('assets/login.jpg'),
+                  child: Image.asset('assets/login.png'),
                 ),
                 TextFieldInput(
                   icon: Icons.person,

@@ -3,6 +3,7 @@ import 'package:crud_project/Services/authentication.dart';
 import 'package:crud_project/Widget/button.dart';
 import 'package:crud_project/Widget/snackbar.dart';
 import 'package:crud_project/Widget/text_field.dart';
+
 import 'package:flutter/material.dart';
 
 import 'login.dart';
@@ -79,7 +80,7 @@ class _SignupScreenState extends State<SignupScreen> {
             children: [
               SizedBox(
                 height: height / 2.8,
-                child: Image.asset('assets/login.jpg'),
+                child: Image.asset('assets/login.png'),
               ),
               TextFieldInput(
                   icon: Icons.person,
